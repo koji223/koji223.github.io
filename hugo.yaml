@@ -1,0 +1,23 @@
+baseURL: "https://koji223.github.io/"
+title: "Tsutsumi Lab"
+theme: "PaperMod"
+languageCode: "ja"
+paginate: 10
+params:
+  defaultTheme: auto
+  showReadingTime: true
+  ShowPostNavLinks: true
+menu:
+  main:
+    - name: About
+      url: /about/
+      weight: 1
+    - name: Research
+      url: /research/
+      weight: 2
+    - name: Publications
+      url: /publications/
+      weight: 3
+    - name: Contact
+      url: /contact/
+      weight: 4
