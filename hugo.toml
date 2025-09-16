@@ -1,3 +1,30 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://koji223.github.io/"
+title = "Tsutsumi Lab"
+theme = "PaperMod"
+languageCode = "ja"
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  defaultTheme = "auto"
+  showReadingTime = true
+  ShowPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url  = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Research"
+    url  = "/research/"
+    weight = 2
+  [[menu.main]]
+    name = "Publications"
+    url  = "/publications/"
+    weight = 3
+  [[menu.main]]
+    name = "Contact"
+    url  = "/contact/"
+    weight = 4
