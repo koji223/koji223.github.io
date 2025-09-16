@@ -1,30 +1,21 @@
-baseURL = "https://koji223.github.io/"
-title = "Tsutsumi Lab"
-theme = "PaperMod"
-languageCode = "ja"
+baseURL = 'https://koji223.github.io/'
+languageCode = 'en-us'
+title = 'Koji Tsutsumi Lab'
+theme = 'PaperMod'
 
 [pagination]
   pagerSize = 10
 
 [params]
-  defaultTheme = "auto"
-  showReadingTime = true
-  ShowPostNavLinks = true
+  defaultTheme = 'auto'
+  ShowBreadCrumbs = true
 
-[menu]
-  [[menu.main]]
-    name = "About"
-    url  = "/about/"
-    weight = 1
-  [[menu.main]]
-    name = "Research"
-    url  = "/research/"
-    weight = 2
-  [[menu.main]]
-    name = "Publications"
-    url  = "/publications/"
-    weight = 3
-  [[menu.main]]
-    name = "Contact"
-    url  = "/contact/"
-    weight = 4
+[[menu.main]]
+  name = "Home"
+  url  = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Publications"
+  url  = "/publications/"
+  weight = 2
